@@ -1,0 +1,28 @@
+body {
+    background-color: chocolate;
+    width: 1080;
+    height: 1920;
+
+}
+
+.container {
+    background-color: bisque;
+
+}
+header {
+    width: 700px;
+
+}
+ul {
+padding: 15px;
+background-color: aquamarine;
+width: 700px;
+}
+li {
+display: inline;
+font-family: 'Courier New', Courier, monospace;
+font-size: 30px;
+background-color: crimson;
+padding: 10px;
+border-radius: 5px;
+}
