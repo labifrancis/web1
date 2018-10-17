@@ -1,28 +1,79 @@
 body {
-    background-color: chocolate;
-    width: 1080;
-    height: 1920;
+    background-color: gray;
+    width: auto;
+    height: auto;
 
 }
 
 .container {
     background-color: bisque;
+    width: auto;
+    align-self: auto;
+    margin: 10px;
+    float: center;
+    border-radius: 20px;
 
 }
-header {
-    width: 700px;
+.header1 {
+    width: 100%;
+    clearfix
 
 }
 ul {
-padding: 15px;
-background-color: aquamarine;
 width: 700px;
+list-style-type: none;
+padding: 0px;
+margin: 20px;
+float: center;
+margin-left: 300px;
+
 }
 li {
 display: inline;
 font-family: 'Courier New', Courier, monospace;
 font-size: 30px;
-background-color: crimson;
+background-color: gainsboro;
 padding: 10px;
 border-radius: 5px;
+}
+li a{
+    text-decoration-line: none;
+}
+li:hover {
+    background-color: lightskyblue;
+    border: 5px,black,solid;
+
+}
+.about {
+    background-color: aliceblue;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+}
+.services {
+    margin: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.contact {
+    margin: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.clearfix{
+    overflow: auto;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;;
+    border-bottom-radius: 20px;
 }
