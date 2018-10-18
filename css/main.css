@@ -14,9 +14,8 @@ body {
     border-radius: 20px;
 
 }
-.header1 {
-    width: 100%;
-    clearfix
+header {
+    float: right;
 
 }
 ul {
@@ -31,7 +30,7 @@ margin-left: 300px;
 li {
 display: inline;
 font-family: 'Courier New', Courier, monospace;
-font-size: 30px;
+font-size: 20px;
 background-color: gainsboro;
 padding: 10px;
 border-radius: 5px;
@@ -59,7 +58,6 @@ h1 {
 .services {
     margin: 20px;
     padding: 10px;
-    background-color: aliceblue;
     border-radius: 20px;
 }
 .contact {
@@ -67,6 +65,7 @@ h1 {
     padding: 10px;
     background-color: aliceblue;
     border-radius: 20px;
+    clear: both;
 }
 .clearfix{
     overflow: auto;
@@ -76,4 +75,22 @@ footer{
     color: white;
     height: 50px;;
     border-bottom-radius: 20px;
+}
+.serv {
+    float: left;
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    background-color: aquamarine;
+}
+
+h2 {
+    text-align: center;
+}
+
+.img1 {
+    width: 150px;
+    height: 75px;
+    float: left;
+    margin: 10px;
 }
