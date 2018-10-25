@@ -10,8 +10,7 @@ Email: moodyblerd@gmail.com
 }
 body {
     background-color: gray;
-    width: auto;
-    height: auto;
+    height: 100%;
 
 }
 
@@ -29,12 +28,11 @@ header {
 
 }
 ul {
-width: 700px;
 list-style-type: none;
 padding: 0px;
 margin: 20px;
 float: center;
-margin-left: 300px;
+margin-left: 100px;
 
 }
 li {
@@ -44,6 +42,7 @@ font-size: 20px;
 background-color: rgba(238, 232, 232, 0.692);
 padding: 10px;
 border-radius: 5px;
+trans
 }
 li a{
     text-decoration-line: none;
@@ -103,4 +102,15 @@ h2 {
     height: 75px;
     float: left;
     margin: 10px;
+}
+@media screen and (max-width:600px){
+    ul {
+        display: block;
+        float: center;
+
+    }
+    li {
+        width: 100%;
+        margin: 5px;
+    }
 }
