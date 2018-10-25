@@ -31,18 +31,25 @@ ul {
 list-style-type: none;
 padding: 0px;
 margin: 20px;
-float: center;
-margin-left: 100px;
+left: 0;
+top: 5%;
+text-align: center;
+font-size: 0.6rem;
+color: #ffffff;
+cursor: pointer;
+transition:  0.3s;
+
 
 }
 li {
-display: inline;
+display: block;
 font-family: 'Courier New', Courier, monospace;
 font-size: 20px;
 background-color: rgba(238, 232, 232, 0.692);
 padding: 10px;
 border-radius: 5px;
-trans
+float: left;
+width: 100%;
 }
 li a{
     text-decoration-line: none;
@@ -68,6 +75,7 @@ h1 {
     padding: 10px;
     border-radius: 20px;
     background-color:rgba(238, 232, 232, 0.692);
+    
 }
 .contact {
     margin: 20px;
@@ -87,10 +95,11 @@ footer{
 }
 .serv {
     float: left;
-    width: 350px;
+    width: 300px;
     padding: 20px;
-    margin: 50px;
+    margin: 30px;
     background-color: rgba(238, 232, 232, 0.692);
+
 }
 
 h2 {
@@ -103,14 +112,15 @@ h2 {
     float: left;
     margin: 10px;
 }
-@media screen and (max-width:600px){
-    ul {
-        display: block;
-        float: center;
-
-    }
-    li {
-        width: 100%;
-        margin: 5px;
-    }
+@media only screen and (min-width: 600px) {
+    /* For desktop: */
+    li{
+    display: inline;
+    margin: 10px;
+    width: auto;
+   } 
+   ul {
+       display: inline;
+   }
 }
+   
