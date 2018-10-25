@@ -95,9 +95,10 @@ footer{
 }
 .serv {
     float: left;
-    width: 300px;
+    width: 30%;
     padding: 20px;
-    margin: 30px;
+    margin: 20px;
+    min-width: 300px;
     background-color: rgba(238, 232, 232, 0.692);
 
 }
