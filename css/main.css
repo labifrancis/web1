@@ -1,3 +1,13 @@
+/*
+===========================
+Author: Labi Francis
+Email: moodyblerd@gmail.com
+===========================
+*/
+
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: gray;
     width: auto;
@@ -31,7 +41,7 @@ li {
 display: inline;
 font-family: 'Courier New', Courier, monospace;
 font-size: 20px;
-background-color: gainsboro;
+background-color: rgba(238, 232, 232, 0.692);
 padding: 10px;
 border-radius: 5px;
 }
@@ -39,12 +49,12 @@ li a{
     text-decoration-line: none;
 }
 li:hover {
-    background-color: lightskyblue;
+    background-color:grey;
     border: 5px,black,solid;
 
 }
 .about {
-    background-color: aliceblue;
+    background-color:rgba(238, 232, 232, 0.692);
     width: auto;
     color: black;
     margin: 20px;
@@ -58,11 +68,12 @@ h1 {
     margin: 20px;
     padding: 10px;
     border-radius: 20px;
+    background-color:rgba(238, 232, 232, 0.692);
 }
 .contact {
     margin: 20px;
     padding: 10px;
-    background-color: aliceblue;
+    background-color:rgba(238, 232, 232, 0.692);
     border-radius: 20px;
     clear: both;
 }
@@ -77,10 +88,10 @@ footer{
 }
 .serv {
     float: left;
-    width: 300px;
+    width: 350px;
     padding: 20px;
     margin: 50px;
-    background-color: aquamarine;
+    background-color: rgba(238, 232, 232, 0.692);
 }
 
 h2 {
